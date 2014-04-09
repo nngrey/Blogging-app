@@ -10,6 +10,7 @@ gem 'turbolinks'
 gem 'jquery-turbolinks'
 gem 'bootstrap-sass'
 gem 'paperclip'
+gem 'bcrypt-ruby'
 
 group :development do
   gem 'better_errors'
