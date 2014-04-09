@@ -44,6 +44,6 @@ before_action :authorize, only: [:edit, :update]
 
   private
     def article_params
-      params.require(:article).permit(:name, :content, :author_name)
+      params.require(:article).permit(:name, :content, :author_name, :photo)
     end
 end
