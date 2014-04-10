@@ -1,6 +1,6 @@
 <h1><%= @article.name %></h1>
   <p>by <%= @article.author_name %> on <%= @article.published_at %></p>
-  <p><%= image_tag @article.photo.url(:thumb) %></p>
+  <p><%= image_tag @article.photo.url(:medium) %></p>
   <p><%= @article.content %></p>
 <hr>
 <p><%= link_to "Edit Article", edit_article_path(@article), :class => "btn btn-primary" %></p>

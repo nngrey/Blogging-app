@@ -2,6 +2,7 @@
 
 <% @articles.each do |article| %>
   <h3><%= link_to article.name, article_path(article) %></h3>
+  <p><%= image_tag article.photo.url(:thumb) %></p>
   <p>by <%= article.author_name %> on <%= article.published_at %></p>
   <p><%= article.content %></p>
 <% end %>

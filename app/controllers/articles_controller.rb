@@ -20,6 +20,7 @@ before_action :authorize, only: [:edit, :update]
   end
 
   def show
+    @users = User.all
     @article = Article.find(params[:id])
   end
 
