@@ -1,8 +1,13 @@
-# Photo sharing app
-#### Let's make an app that lets users upload their photos to share with the world.
+# Blogging app
 
-#### Start off by letting people create accounts, following along with the authentication Railscast.
+- For this exercise, we practiced user authentication and file uploads with Paperclip.
 
-#### Then, let them upload photos.
+- Epicodus is a full-time coding bootcamp in Portland Oregon.
 
-#### Next, allow them to tag other users in photos. To keep this simple, just display a list of all the users in a drop-down menu when you add a tag to a photo.
+#### Directions: Let's make an app that lets users upload their photos to share with the world.
+
+- Start off by letting people create accounts, following along with the authentication Railscast.
+
+- Then, let them upload photos.
+
+
