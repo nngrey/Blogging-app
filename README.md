@@ -1,4 +1,6 @@
-# Blogging app
+# Epicodus Exercise
+
+##Blogging app
 
 - For this exercise, we practiced user authentication and file uploads with Paperclip.
 
